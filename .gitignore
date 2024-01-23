@@ -1,6 +1,6 @@
 # Parcel .gitignore start
 .parcel-cache/
-.debug/
+debug/
 # Parcel .gitignore end
 # Microsoft .gitignore start
 node_modules/
