@@ -1,0 +1,29 @@
+{
+  "name": "remuxdoge",
+  "version": "1.0.0",
+  "description": "npm i -D parcel",
+  "source": "src/index.html",
+  "typings": "index.d.ts",
+  "private": true,
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "clean:dist": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --dist-dir debug",
+    "build": "parcel build --no-content-hash --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "parcel": {
+    "externals": {
+      "react": "react"
+    }
+  },
+  "devDependencies": {
+    "parcel": "latest",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
